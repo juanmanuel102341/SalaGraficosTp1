@@ -18,6 +18,9 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{98455C78-ED3D-4169-AA63-85ADB4780A2C}</ProjectGuid>
     <RootNamespace>sala</RootNamespace>
@@ -141,9 +144,6 @@
       <Command>copy "$(SolutionDir)SDL2-2.0.8\lib\x64\SDL2.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\tp1 Sala\tp1 Sala\Source.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
